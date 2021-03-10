@@ -1,0 +1,16 @@
+{
+  "name": "ma11northam-photos-from-airtable",
+  "private": true,
+  "version": "0.1",
+  "author": "Matt Northam",
+  "license": "MIT",
+  "description": "Just getting some things from airtable",
+  "scripts": {
+    "serve": "npx @11ty/eleventy --serve --input=src --output=dist --formats=html,liquid,gif,png,jpg,webp,css,js",
+    "build": "npx @11ty/eleventy --input=src --output=dist --formats=html,liquid,gif,png,jpg,webp,css,js"
+  },
+  "dependencies": {
+    "airtable": "^0.10.1",
+    "dotenv": "^8.2.0"
+  }
+}

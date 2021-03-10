@@ -1,0 +1,6 @@
+dist/
+.env
+.pk
+.pem
+.pub
+package-lock.json

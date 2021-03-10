@@ -1,0 +1,23 @@
+---
+layout: layouts/base.liquid
+title: all matt's photos
+---
+<h2>Total photos: {{ photos.length }}</h2>
+
+<textarea style="height: 80vh; width: 80vw">
+[
+{%- for item in photos -%}
+{
+  "title": "{{ item.title }}",
+  "date": "{{ item.date }}",
+  "image": "{{ item.image }}",
+  "tags": {{ item.tags }},
+  "ratio": "{{ item.ratio }}",
+  "colour": "{{ item.colour }}",
+  "display_title": "{{ item.display_title }}",
+  "byline": "{{ item.byline }}",
+  "blurb": {{ item.blurb | nicejson }}
+},
+{%- endfor -%}
+]
+</textarea>
