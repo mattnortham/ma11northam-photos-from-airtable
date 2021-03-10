@@ -4,7 +4,7 @@
   "version": "0.1",
   "author": "Matt Northam",
   "license": "MIT",
-  "description": "Just getting some things from airtable",
+  "description": "Just getting some things from airtable and working with them in eleventy",
   "scripts": {
     "serve": "npx @11ty/eleventy --serve --input=src --output=dist --formats=html,liquid,gif,png,jpg,webp,css,js",
     "build": "npx @11ty/eleventy --input=src --output=dist --formats=html,liquid,gif,png,jpg,webp,css,js"
